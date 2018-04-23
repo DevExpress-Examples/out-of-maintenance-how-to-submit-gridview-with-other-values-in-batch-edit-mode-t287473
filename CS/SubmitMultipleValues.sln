@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubmitMultipleValues", "SubmitMultipleValues\SubmitMultipleValues.csproj", "{137A2BA6-B9BA-403F-9934-EF96F5A85395}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137A2BA6-B9BA-403F-9934-EF96F5A85395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137A2BA6-B9BA-403F-9934-EF96F5A85395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137A2BA6-B9BA-403F-9934-EF96F5A85395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137A2BA6-B9BA-403F-9934-EF96F5A85395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
