@@ -1,0 +1,46 @@
+@Html.DevExpress().GridView(settings => {
+    settings.Name = "GridView";
+    settings.KeyFieldName = "Id";
+    settings.CallbackRouteValues = new { Controller = "Test2", Action = "GridViewPartial" }; 
+    settings.SettingsEditing.BatchUpdateRouteValues = new { Controller = "Test2", Action = "BatchUpdatePartial" };
+    settings.SettingsEditing.Mode = GridViewEditingMode.Batch;   
+    settings.CommandColumn.Visible = true;
+    settings.CommandColumn.ShowDeleteButton = true;
+    settings.CommandColumn.ShowNewButtonInHeader = true;
+    settings.SettingsEditing.ShowModelErrorsForEditors = true;
+    settings.ClientSideEvents.EndCallback = "OnEndCallback";        
+    settings.Columns.Add("C1").Width = 50;
+    settings.Columns.Add(column => {
+        column.FieldName = "C2";
+        column.ColumnType = MVCxGridViewColumnType.SpinEdit;
+        column.Width = 70;
+    });   
+    settings.Columns.Add("C3").Width = 70;
+    settings.Columns.Add(column => {
+        column.FieldName = "C4";
+        column.ColumnType = MVCxGridViewColumnType.CheckBox;
+        column.Width = 30;
+    });
+    settings.Columns.Add(column => {
+        column.FieldName = "C5";
+        column.ColumnType = MVCxGridViewColumnType.DateEdit;
+        column.PropertiesEdit.DisplayFormatString = "MM/dd/yyyy";
+        ((DateEditProperties)column.PropertiesEdit).EditFormat = EditFormat.Custom;
+        ((DateEditProperties)column.PropertiesEdit).EditFormatString = "MM/dd/yyyy";
+        
+    });
+    settings.CellEditorInitialize = (s, e) => {
+        ASPxEdit editor = (ASPxEdit)e.Editor;
+        editor.ValidationSettings.Display = Display.Dynamic;
+    };
+    settings.CommandButtonInitialize = (s, e) =>
+    {
+        if (e.ButtonType == ColumnCommandButtonType.Update || e.ButtonType == ColumnCommandButtonType.Cancel)
+            e.Visible = false;
+    };
+    settings.CustomJSProperties = (s, e) =>
+    {
+        if (ViewData["ErrorFlag"] != null)            
+          e.Properties.Add("cpErrorFlag", (bool)ViewData["ErrorFlag"]);
+    };   
+}).Bind(Model).GetHtml()
