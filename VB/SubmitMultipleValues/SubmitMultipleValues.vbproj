@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -50,147 +50,111 @@
   <ItemGroup>
     <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Charts.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Dashboard.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.Resources.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.Resources.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v16.1.Web, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Dashboard.v16.1.Web.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Dashboard.v16.1.Web.Mvc5, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Dashboard.v16.1.Web.Mvc5.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Data.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.DataAccess.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Office.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.PivotGrid.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Pdf.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Printing.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.RichEdit.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.SpellChecker.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.SpellChecker.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Spreadsheet.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Spreadsheet.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Utils.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxGauges.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxGauges.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxHtmlEditor.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxHtmlEditor.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxPivotGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxPivotGrid.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxScheduler.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxScheduler.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxSpellChecker.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxSpellChecker.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxSpreadsheet.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxSpreadsheet.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxThemes.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxThemes.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxTreeList.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.ASPxTreeList.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.Mvc5.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.Mvc5.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Web.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpo.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Xpo.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraCharts.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v16.1.Web, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraCharts.v16.1.Web.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraGauges.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraGauges.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraGauges.v16.1.Presets, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraGauges.v16.1.Presets.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPivotGrid.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraPivotGrid.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Sparkline.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.CodeParser.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.CodeParser.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraReports.v16.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v16.1.Web, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraReports.v16.1.Web.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraScheduler.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraScheduler.v16.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.AspNet">
       <HintPath>..\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
