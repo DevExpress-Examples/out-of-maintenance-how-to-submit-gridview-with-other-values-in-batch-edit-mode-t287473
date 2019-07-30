@@ -14,7 +14,7 @@
 <!-- default file list end -->
 # How to submit GridView with other values in Batch Edit mode
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t287473)**
+**[[Run Online]](https://codecentral.devexpress.com/t287473/)**
 <!-- run online end -->
 
 
