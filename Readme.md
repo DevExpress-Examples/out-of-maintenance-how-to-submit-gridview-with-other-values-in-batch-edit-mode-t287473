@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128551892/15.1.5%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T287473)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -17,9 +12,6 @@
 * [Index.cshtml](./CS/SubmitMultipleValues/Views/Test2/Index.cshtml)
 <!-- default file list end -->
 # How to submit GridView with other values in Batch Edit mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t287473)**
-<!-- run online end -->
 
 
 <p>This approach illustrates the solutions suggested in the <a href="https://www.devexpress.com/Support/Center/p/T289618">How to submit GridView with other values in Batch Edit mode</a> help article.</p>
